@@ -1,0 +1,23 @@
+{
+  "name": "freshstart-cli",
+  "version": "1.0.0",
+  "description": "Generate project boilerplates for Node.js through CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "bin": {
+    "fstart": "./index.js"
+  },
+  "keywords": [
+    "generate",
+    "freshtec",
+    "templates"
+  ],
+  "author": "Arnav Malhotra <spideynuff@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "yargs": "^13.2.4"
+  }
+}

@@ -1,5 +1,7 @@
 {
     "express-mongo-rest-api": {
+        "lang": "node",
+        "description": "Example template for a REST API utilizing Express.js and MongoDB",
         "contents": [
             {
                 "name": "server.js",
@@ -8,7 +10,7 @@
             {
                 "name": "package.json",
                 "type": "file",
-                "contents": "{\n    \"name\": \"<PROJ_NAME>\",\n    \"version\": \"1.0.0\",\n    \"description\": \"Example express/MongoDB API\",\n    \"main\": \"server.js\",\n    \"scripts\": {\n        \"test\": \"./node_modules/mocha/bin/mocha test\"\n    },\n    \"keywords\": [\n        \"express\",\n        \"mongodb\",\n        \"resful-api\"\n    ],\n    \"author\": \"FirstName LastName <email@domain.com>\",\n    \"license\": \"ISC\",\n    \"dependencies\": {\n        \"body-parser\": \"^1.19.0\",\n        \"express\": \"^4.17.1\",\n        \"hot-shots\": \"^6.3.0\",\n        \"mongo-sanitize\": \"^1.0.1\",\n        \"mongoose\": \"^5.5.11\",\n        \"winston\": \"^3.2.1\",\n        \"winston-datadog\": \"^1.1.0\"\n    },\n    \"devDependencies\": {\n        \"mocha\": \"^6.1.4\",\n        \"nodemon\": \"^1.19.1\"\n    }\n}"
+                "contents": "{\n    \"name\": \"express-mongo-rest-api\",\n    \"version\": \"1.0.0\",\n    \"description\": \"Example express/MongoDB API\",\n    \"main\": \"server.js\",\n    \"scripts\": {\n        \"test\": \"./node_modules/mocha/bin/mocha test\"\n    },\n    \"keywords\": [\n        \"express\",\n        \"mongodb\",\n        \"resful-api\"\n    ],\n    \"author\": \"FirstName LastName <email@domain.com>\",\n    \"license\": \"ISC\",\n    \"dependencies\": {\n        \"body-parser\": \"^1.19.0\",\n        \"express\": \"^4.17.1\",\n        \"hot-shots\": \"^6.3.0\",\n        \"mongo-sanitize\": \"^1.0.1\",\n        \"mongoose\": \"^5.5.11\",\n        \"winston\": \"^3.2.1\",\n        \"winston-datadog\": \"^1.1.0\"\n    },\n    \"devDependencies\": {\n        \"mocha\": \"^6.1.4\",\n        \"nodemon\": \"^1.19.1\"\n    }\n}"
             },
             {
                 "name": ".gitignore",

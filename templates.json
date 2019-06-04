@@ -1,5 +1,5 @@
 {
-    "express-mongo-rest-api": {
+    "express-mongodb-api": {
         "contents": [
             {
                 "name": "server.js",
@@ -69,5 +69,70 @@
         ],
         "created_at": "2019-06-04T15:33:16.297Z",
         "lang": "nodejs"
+    },
+    "flask-app": {
+        "lang": "python",
+        "contents": [
+            {
+                "name": "README.md",
+                "type": "file",
+                "contents": "***File Structure***\n\n*run.py* -- This is the file that is invoked to start up a development server. It gets a copy of the app from your package and runs it. This won’t be used in production, but it will see a lot of mileage in development.\n*requirements.txt* -- This file lists all of the Python packages that your app depends on. You may have separate files for production and development dependencies.\n*config.py* -- This file contains most of the configuration variables that your app needs.\n\n**instance/** -- This folder is used to store sensitive information that shouldn't be shown directly.\n    *config.py* -- This file contains configuration variables that shouldn’t be in version control. This includes things like API keys and database URIs containing passwords. This also contains variables that are specific to this particular instance of your application. For example, you might have `DEBUG = False` in `config.py`, but set `DEBUG = True` in instance/config.py on your local machine for development. Since this file will be read in after config.py, it will override it and set `DEBUG = True`.\n\n**yourapp/** -- This is the package that contains your application.\n    *\\_\\_init\\_\\_.py* -- This file initializes your application and brings together all of the various components.\n    *views.py* -- This is where the routes are defined. It may be split into a package of its own (yourapp/views/) with related views grouped together into modules.\n    *models.py* -- This is where you define the models of your application. This may be split into several modules in the same way as views.py.\n    *forms.py* -- This is where you will put all of your code related to forms (e.g. your code for handling form responses will go here).\n    **static/** -- This directory contains the public CSS, JavaScript, images and other files that you want to make public via your app. It is accessible from yourapp.com/static/ by default.\n    **templates/** -- This is where you’ll put the Jinja2 templates for your app.\n\n**This information is sourced from [exploreflask.com](http://exploreflask.com/en/latest/organizing.html).**"
+            },
+            {
+                "name": "config.py",
+                "type": "file"
+            },
+            {
+                "name": "instance",
+                "type": "folder",
+                "contents": [
+                    {
+                        "name": "config.py",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "requirements.txt",
+                "type": "file"
+            },
+            {
+                "name": "run.py",
+                "type": "file"
+            },
+            {
+                "name": "yourapp",
+                "type": "folder",
+                "contents": [
+                    {
+                        "name": "__init__.py",
+                        "type": "file"
+                    },
+                    {
+                        "name": "forms.py",
+                        "type": "file"
+                    },
+                    {
+                        "name": "models.py",
+                        "type": "file"
+                    },
+                    {
+                        "name": "static",
+                        "type": "folder",
+                        "contents": []
+                    },
+                    {
+                        "name": "templates",
+                        "type": "folder",
+                        "contents": []
+                    },
+                    {
+                        "name": "views.py",
+                        "type": "file"
+                    }
+                ]
+            }
+        ],
+        "created_at": "2019-06-04T18:59:43.137Z"
     }
 }

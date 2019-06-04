@@ -1,8 +1,5 @@
 {
     "express-mongo-rest-api": {
-        "lang": "node",
-        "created_at": "2019-06-04T15:33:16.297Z",
-        "description": "Example template for a REST API utilizing Express.js and MongoDB",
         "contents": [
             {
                 "name": "server.js",
@@ -69,6 +66,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "created_at": "2019-06-04T15:33:16.297Z",
+        "description": "Example template for a REST API utilizing Express.js and MongoDB",
+        "lang": "nodejs"
     }
 }

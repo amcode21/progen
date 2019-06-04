@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 const path = require('path');
-require(path.join(__dirname, 'lib', 'progen.js'))();
+require(path.join(__dirname, 'lib', 'cli.js'))();

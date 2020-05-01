@@ -4,7 +4,9 @@
   "description": "Generate project templates through CLI",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "bin": {
     "progen": "./index.js"
@@ -21,6 +23,8 @@
     "cli-table": "^0.3.1",
     "clui": "^0.3.6",
     "inquirer": "^6.3.1",
-    "yargs": "^13.2.4"
-  }
+    "yargs": "^13.2.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
